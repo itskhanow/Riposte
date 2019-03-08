@@ -11,3 +11,8 @@ Riposte keeps track of when users post links and if that link is posted into the
 Or in pastable format
 
 `https://discordapp.com/oauth2/authorize?&client_id=553447896834375682&scope=bot&permissions=18496`
+
+# Commands
+Right now Riposte only responds to one command and that is to show you how many points you have.
+
+`!ripostes`

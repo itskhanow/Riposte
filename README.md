@@ -16,3 +16,10 @@ Or in pastable format
 Right now Riposte only responds to one command and that is to show you how many points you have.
 
 `!ripostes`
+
+# See it in action
+Try it out [here](https://discord.gg/B7k34Ry)
+
+pasteable
+
+`https://discord.gg/B7k34Ry`

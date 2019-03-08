@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Discord = require('discord.js');
 const Redis = require('ioredis');
 const redis = new Redis();

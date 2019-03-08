@@ -45,12 +45,12 @@ Riposte.on('message', (message) => {
               .setDescription(`<@${post.user}> already posted that ${timeSince}! ([Proof](${post.proofUrl}))`)
               .addField(
                 "Them",
-                `<@${post.user}> has ${(points[0] || 0) + 1} points!`,
+                `<@${post.user}> has ${Number(points[0] || 0) + 1} points!`,
                 true
               )
               .addField(
                 "You",
-                `You have ${(points[1] || 0)}!`,
+                `You have ${Number(points[1] || 0)}!`,
                 true
               )
             );
@@ -75,7 +75,7 @@ Riposte.on('message', (message) => {
 
   if (command == "ripostes") {
     redis.get("POINTS_" + user).then((points) => {
-      message.reply(`You have ${points} ripostes!`);
+      message.reply(`You have ${Number(points)} ripostes!`);
     });
   }
 });

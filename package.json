@@ -1,0 +1,13 @@
+{
+  "name": "Riposte",
+  "version": "0.0.1",
+  "description": "A Discord bot that keeps track of reposts.",
+  "main": "main.js",
+  "author": "Khan Ow",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "get-urls": "^9.0.0",
+    "ioredis": "^4.6.2",
+    "moment": "^2.24.0"
+  }
+}

@@ -8,6 +8,6 @@
     "discord.js": "^11.4.2",
     "get-urls": "^9.0.0",
     "ioredis": "^4.6.2",
-    "moment": "^2.29.2"
+    "moment": "^2.29.4"
   }
 }
